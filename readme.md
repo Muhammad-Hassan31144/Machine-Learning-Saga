@@ -46,8 +46,3 @@ This project demonstrates the application of various machine learning models on 
 
 To run the scripts for training and evaluating the models, ensure that the datasets are available at the specified file paths. Each notebook and script is designed to preprocess the data, train the model, perform cross-validation, and evaluate the model using various metrics.
 
-### Example Commands
-
-#### Running SVM for IoT Intrusion Detection (Numeric)
-```sh
-python notebooks/svm_model.py
