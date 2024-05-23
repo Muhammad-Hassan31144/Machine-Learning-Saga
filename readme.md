@@ -42,59 +42,6 @@ This project demonstrates the application of various machine learning models on 
 ### 4. Cross-Validation
 - Implemented for all models to ensure robust performance evaluation and to prevent overfitting.
 
-## Directory Structure
-Machine-Learning-Saga/
-├── .git/
-├── .gitattributes
-├── deepFakeDetection/
-│   ├── data/
-│   │   ├── deepfake.zip
-│   ├── models/
-│   ├── notebook/
-├── directory_structure.md
-├── ensemble/
-│   ├── hateSpeechDetection/
-│   │   ├── baseModelEnsemble/
-│   │   │   ├── ensembleBagging.ipynb
-│   │   │   ├── ensembleBoosting.ipynb
-│   │   │   ├── ensembleReadme.md
-│   │   ├── ensemble.ipynb
-│   │   ├── improvedEnsemble.ipynb
-│   ├── iotIntrusionDetection/
-│       ├── BaseModelEnsemble/
-│       │   ├── ensembleBagging.ipynb
-│       │   ├── ensembleBoosting.ipynb
-│       │   ├── ensembleReadme.md
-│       ├── ensemble.ipynb
-│       ├── improvedEnsemble.ipynb
-├── hateSpeechDetection/
-│   ├── data/
-│   │   ├── hatespeech.zip
-│   ├── models/
-│   ├── notebook/
-│       ├── dataPreprocessing.ipynb
-│       ├── decisionTree.ipynb
-│       ├── decisionTreeReadme.md
-│       ├── deepFFReadme.md
-│       ├── deepFeedForward.ipynb
-│       ├── evaluation.ipynb
-│       ├── modelTraining.ipynb
-├── iotIntrusionDetection/
-│   ├── data/
-│   │   ├── iot_intrusion_detection.zip
-│   ├── deepFFReadme.md
-│   ├── models/
-│   ├── notebook/
-│   │   ├── dataPreprocessing.ipynb
-│   │   ├── deepFeedForward.ipynb
-│   │   ├── evaluation.ipynb
-│   │   ├── modelTraining.ipynb
-│   │   ├── svmFullCpu.ipynb
-│   ├── svmReadme.md
-├── readme.md
-├── results/
-
-
 ## Usage
 
 To run the scripts for training and evaluating the models, ensure that the datasets are available at the specified file paths. Each notebook and script is designed to preprocess the data, train the model, perform cross-validation, and evaluate the model using various metrics.
